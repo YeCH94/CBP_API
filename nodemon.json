@@ -1,0 +1,11 @@
+{
+  "verbose": true,
+  "watch": ["**/*.js"],
+  "env": {
+    "NODE_ENV": "development",
+    "PORT": "3000"
+  },
+  "ignore": [".git", "node_modules"],
+  "ext": "js",
+  "exec": "node server.js"
+}
